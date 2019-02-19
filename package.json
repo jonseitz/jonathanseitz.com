@@ -1,0 +1,19 @@
+{
+  "name": "jonathanseitz.com",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonseitz/jonathanseitz.com.git"
+  },
+  "author": "Jonathan Seitz (mail@jonathanseitz.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonseitz/jonathanseitz.com/issues"
+  },
+  "homepage": "https://github.com/jonseitz/jonathanseitz.com#readme"
+}
