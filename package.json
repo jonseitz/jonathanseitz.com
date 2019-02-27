@@ -20,13 +20,13 @@
   "dependencies": {
     "esm": "^3.2.6",
     "front-matter": "^3.0.1",
+    "highlight.js": "^9.15.6",
+    "htm": "^2.1.0",
     "marked": "^0.6.1",
     "preact": "^8.4.2",
     "preact-render-to-string": "^4.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.3",
-    "@babel/preset-typescript": "^7.3.3",
     "eslint": "^5.14.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.16.0",
