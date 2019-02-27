@@ -7,9 +7,7 @@ const CONTENT_DIR = resolve(__dirname, '../content');
 
 fs.readdir(CONTENT_DIR, { withFileTypes: true })
   .then(files => parseFiles(files, CONTENT_DIR))
-  .then(contents => Promise.all(contents.map((page) => {
-    renderPage(page);
-  })))
+  .then(contents => Promise.all(contents.map(page => renderPage(page))))
   .then(() => {
     process.exit(0);
   });
